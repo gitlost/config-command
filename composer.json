@@ -22,10 +22,17 @@
         },
         "files": [ "config-command.php" ]
     },
+	"repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/gitlost/wp-cli.git"
+		}
+
+	],
     "require": {},
     "require-dev": {
         "behat/behat": "~2.5",
-        "wp-cli/wp-cli": "*"
+        "wp-cli/wp-cli": "dev-issue_4120"
     },
     "extra": {
         "branch-alias": {
